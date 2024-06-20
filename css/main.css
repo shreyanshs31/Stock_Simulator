@@ -31,14 +31,6 @@ body {
     color: hsl(0, 0%, 41%);
 }
 
-/* .login h2 {
-    font-weight: 500;
-    border: .001px transparent white;
-    border-radius: .5em;
-    padding: .2em 1em;
-    color: hsl(0, 0%, 41%);
-} */
-
 .register {
     text-decoration: none;
     font-size: 1rem;
@@ -48,14 +40,6 @@ body {
     padding: .6em 1em;
     color: hsl(0, 0%, 41%);
 }
-
-/* .register h2 {
-    font-weight: 500;
-    border: 1.5px solid black;
-    border-radius: .5em;
-    padding: .2em .5em;
-    color: hsl(0, 0%, 41%);
-} */
 
 .login-register-container {
     display: flex;
@@ -69,7 +53,6 @@ body {
 }
 
 .info-container p{
-    /* margin-top: 4.4em; */
     margin-bottom: 0;
     font-size: 4.4rem;
     font-weight: 700;

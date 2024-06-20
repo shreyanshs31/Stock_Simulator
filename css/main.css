@@ -1,27 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    font-family: 'Manrope';
-    font-size: 13px;
-    background-color: hsl(210, 46%, 95%);
+    font-family: "Epilogue", serif;
+    font-size: 18px;
+    background-color: hsl(0, 0%, 98%);
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
 .navigation-container {
+    margin: 1.25em 4.6em 0em 4.6em;
     display: flex;
     justify-content: space-between;
 }
 
 .brand-el {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 8%);
+    font-weight: 800;
 }
 
 .login {
     text-decoration: none;
     font-size: 1rem;
+    font-weight: 500;
+    border: .001px transparent white;
+    border-radius: .5em;
+    padding: .2em 1em;
+    color: hsl(0, 0%, 41%);
 }
+
+/* .login h2 {
+    font-weight: 500;
+    border: .001px transparent white;
+    border-radius: .5em;
+    padding: .2em 1em;
+    color: hsl(0, 0%, 41%);
+} */
 
 .register {
     text-decoration: none;
     font-size: 1rem;
+    font-weight: 500;
+    border: 1.5px solid black;
+    border-radius: .8em;
+    padding: .6em 1em;
+    color: hsl(0, 0%, 41%);
+}
+
+/* .register h2 {
+    font-weight: 500;
+    border: 1.5px solid black;
+    border-radius: .5em;
+    padding: .2em .5em;
+    color: hsl(0, 0%, 41%);
+} */
+
+.login-register-container {
+    display: flex;
+}
+
+.hero-container {
+    margin: 3em 7.8em 0em 7.8em;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: "content laptop";
+}
+
+.info-container p{
+    /* margin-top: 4.4em; */
+    margin-bottom: 0;
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+img {
+    width: 70%;
+}
+
+.image-container img{
+    margin-left: 6em;
 }

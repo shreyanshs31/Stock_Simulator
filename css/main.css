@@ -7,3 +7,21 @@ body {
     box-sizing: border-box;
 }
 
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-el {
+    font-size: 1.2rem;
+}
+
+.login {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.register {
+    text-decoration: none;
+    font-size: 1rem;
+}

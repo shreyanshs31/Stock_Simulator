@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Epilogue", serif;
+    font-size: 18px;
+    background-color: hsl(0, 0%, 98%);
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navigation-container {
+    text-align: center;
+    margin: 1.25em 4.6em 0em 4.6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-el {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 8%);
+    font-weight: 800;
+}
+
+.user-icon {
+    justify-content: center;
+    align-items: center;
+    margin-top: -.35em;
+}
+
+
+.avatar-btn {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0;
+    margin:0;
+}
+
+.avatar-btn img {
+    padding:0;
+    margin: 0;
+    height: 3em;
+    width: 3.4em;
+}
+
+.hero-container {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.input-button-container {
+    margin-top: 5em;
+}
+
+.input-el {
+    border: none;
+    border-radius: 2em;
+    padding: 1.5em 2em;
+    width: 45%;
+    box-shadow: 2px 1px 3px 2px hsl(0, 3%, 66%);
+}
+
+.input-el:focus {
+    outline: none;
+}
+
+.input-el:focus::placeholder {
+    color: transparent;
+}
+
+.portfolio-container {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.box {
+    margin: 3em 3em 0em 3em;
+    border: none;
+    border-radius: 1.5em;
+    box-shadow: 1px 2px 3px 2px hsl(0, 3%, 66%);
+    height: 200px;
+    width: 250px;
+    flex-wrap: wrap;
+}
+
+.top {
+    margin: 0;
+    padding: 0;
+    font-family: "Epilogue", serif;
+    font-weight: 600;
+}
+
+.list {
+    padding: 0.5em 1em;
+}

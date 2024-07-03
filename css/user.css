@@ -70,9 +70,14 @@ body {
     color: transparent;
 }
 
+.suggesstions {
+    padding: 0;
+    margin: 0;
+}
+
 .suggesstions-wrap .suggesstions li {
     list-style: none;
-    border-radius: 3px;
+    border-radius: .18em;
     padding: 8px 25px;
     transition: all .5s linear;
 }
@@ -82,12 +87,18 @@ body {
 }
 
 .suggesstions-wrap.show {
+    position: absolute;
+    z-index: 993;
+    background-color:hsl(0, 0%, 98%);
     margin-top: .5em;
+    right: 22.5em;
     width: 42%;
     display: inline-block;
     border: none;
-    border-radius: 1em;
+    border-radius: .6em;
     box-shadow: 2px 1px 3px 2px hsl(0, 3%, 66%);
+    height: 300px;
+    overflow: scroll;
 }
 
 .suggesstions-wrap .suggesstions li:hover {
@@ -98,6 +109,7 @@ body {
     justify-content: center;
     text-align: center;
     display: flex;
+    z-index: 1;
 }
 
 .box {
@@ -119,4 +131,22 @@ body {
 
 .list {
     padding: 0.5em 1em;
+}
+
+
+@media(max-width: 1380px) {
+    .suggesstions-wrap.show {
+        left: 18.5em;
+    }
+}
+
+@media(max-width: 950px) {
+    .suggesstions-wrap.show {
+        left: 3.6em;
+        width: 70%;
+    }
+
+    .input-el {
+        width: 75%;
+    }
 }

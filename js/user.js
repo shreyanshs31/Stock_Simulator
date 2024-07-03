@@ -12,7 +12,7 @@ function showRecommendedList(recommendedList) {
     suggesstionsContainer.innerHTML = "";
     recommendedList.map(recommendedItem => {
         const li = document.createElement("li");
-        li.textContent = recommendedItem.search;
+        li.textContent = recommendedItem.search.replace(',',' | ');
         suggesstionsContainer.appendChild(li);
     })
 }
